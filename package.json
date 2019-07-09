@@ -1,0 +1,21 @@
+{
+  "name": "incidents-cli",
+  "version": "1.0.0",
+  "description": "Manage incidents from CLI",
+  "main": "index.js",
+  "author": "Leonardo Flores",
+  "license": "MIT",
+  "bin": {
+    "incidents": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "consola": "^2.7.1",
+    "glob": "^7.1.4",
+    "inquirer": "^6.3.1",
+    "js-yaml": "^3.13.1",
+    "opener": "^1.5.1",
+    "parameterize": "^1.0.0"
+  }
+}
